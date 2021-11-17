@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "tailored-tunes",
+    "plugin:json/recommended",
+    "plugin:react/recommended"
+  ],
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "json",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "no-warning-comments": "off",
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
+  },
+  "env": {
+    "commonjs": false,
+    "es6": true,
+    "node": true
+  }
+}
