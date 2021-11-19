@@ -21,4 +21,4 @@ Current state: ![GitHub issue/pull request detail](https://img.shields.io/github
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+Dependency load times will be longer but Dependabot will start working again.
