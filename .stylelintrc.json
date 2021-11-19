@@ -6,6 +6,9 @@
     "stylelint-scss"
   ],
   "ignoreFiles": [
+    "reports/**/*",
+    "dist/**/*",
+    "node_modules/**/*",
     "**/*.json",
     "**/*.graphql",
     "**/*.tsx",
