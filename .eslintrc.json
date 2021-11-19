@@ -20,6 +20,7 @@
     }
   },
   "plugins": [
+    "jest",
     "react",
     "json",
     "@typescript-eslint"
