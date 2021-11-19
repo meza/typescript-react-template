@@ -4,7 +4,7 @@ Date: 2021-11-06
 
 ## Status
 
-Accepted
+Superceded by [3. use yarn 1 after all](0003-use-yarn-1-after-all.md)
 
 ## Context
 
