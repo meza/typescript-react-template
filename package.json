@@ -23,11 +23,13 @@
     "test": "jest",
     "report": "jest --coverage && jscpd",
     "release": "standard-version",
-    "postinstall": "is-ci || husky install"
+    "postinstall": "is-ci || husky install",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 8081",
+    "build-storybook": "NODE_OPTIONS=--openssl-legacy-provider build-storybook",
+    "chromatic": "npx chromatic --project-token=2ef1b7ed9a07"
   },
   "dependencies": {
     "@types/react-redux": "^7.1.20",
-    "connected-react-router": "^6.2.0-beta.3",
     "core-js": "^3.19.1",
     "history": "^5.1.0",
     "i18next": "^21.5.2",
@@ -78,6 +80,14 @@
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@meza/tsconfig-base": "^1.1.0",
+    "@storybook/addon-a11y": "^6.4.0",
+    "@storybook/addon-docs": "^6.4.0",
+    "@storybook/addon-essentials": "^6.4.0",
+    "@storybook/addon-links": "^6.4.0",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.4.0",
+    "@storybook/manager-webpack5": "^6.4.0",
+    "@storybook/react": "^6.4.0",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.9",
@@ -93,6 +103,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-transform-imports": "^2.0.0",
     "chance": "^1.1.8",
+    "chromatic": "^6.0.6",
     "clean-webpack-plugin": "^4.0.0",
     "colorguard": "^1.2.1",
     "css-loader": "^6.5.1",
@@ -103,6 +114,7 @@
     "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-storybook": "^0.5.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
     "identity-obj-proxy": "^3.0.0",
@@ -126,6 +138,7 @@
     "react-test-renderer": "^17.0.2",
     "redux-devtools-extension": "^2.13.9",
     "standard-version": "^9.3.2",
+    "storybook-dark-mode": "^1.0.8",
     "stylelint": "^14.1.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0",
@@ -190,6 +203,9 @@
     "testMatch": [
       "**/?(*.)test.ts?(x)"
     ],
+    "transform": {
+      "^.+\\.mdx$": "@storybook/addon-docs/jest-transform-mdx"
+    },
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx}",
       "!node_modules/**/*",

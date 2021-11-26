@@ -1,5 +1,5 @@
 const packagejson = require('./package.json');
-
+console.log('HELLO');
 module.exports = cfg => {
   const dev = cfg.env === 'development';
   return {
