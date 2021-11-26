@@ -1,9 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/main.scss';
+import './Styles/main.scss';
+import { Provider } from 'react-redux';
+import configureStore from './StateManagement/Store/configureStore';
 import App from './App/App';
-import registerServiceWorker from './serviceWorkerRegistration';
+//import registerServiceWorker from './serviceWorkerRegistration';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+const store = configureStore();
 
-registerServiceWorker();
+const renderApp = () => {
+  ReactDOM.render(
+    <Provider store={store}>
+      <BrowserRouter>
+        <App/>
+      </BrowserRouter>
+    </Provider>
+    , document.getElementById('root'));
+};
+
+if (process.env.NODE_ENV !== 'production' && module.hot) {
+  module.hot.accept('./App/App', renderApp);
+}
+
+renderApp();
+//registerServiceWorker();

@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 // English
-import en from '../assets/locales/en.json';
+import en from '../Assets/locales/en.json';
 
 /**
  * @todo Implement i18next support features
