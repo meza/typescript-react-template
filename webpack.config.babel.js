@@ -18,7 +18,7 @@ const config = {
 
 const webpackConfig = (env, args) => {
   const mode = env.mode==='production' ? 'production':'development';
-  const devMode = mode === 'production' ? false : true;
+  const devMode = mode==='production' ? false:true;
   const babelConfig = babelConfigGenerator(false, mode);
 
   /**
@@ -59,9 +59,9 @@ const webpackConfig = (env, args) => {
         cacheLocation: './.cache/',
         fix: true
       }),
-      new WorkboxPlugin.InjectManifest({
-        swSrc: './src/service-worker.js',
-      })
+      // new WorkboxPlugin.InjectManifest({
+      //   swSrc: './src/service-worker.js'
+      // })
     ],
     module: {
       rules: [
@@ -92,18 +92,18 @@ const webpackConfig = (env, args) => {
             {
               loader: 'css-loader',
               options: {
-                importLoaders: 1,
+                importLoaders: 1
               }
             },
             {
               loader: 'postcss-loader'
             }
           ]
-        },
+        }
       ]
     },
     resolve: {
-      extensions: ['.ts', '.js', '.tsx','.jsx', '.mjs', '.json']
+      extensions: ['.ts', '.js', '.tsx', '.jsx', '.mjs', '.json']
     },
     performance: {
       hints: false
