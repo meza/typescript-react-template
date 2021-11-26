@@ -203,9 +203,6 @@
     "testMatch": [
       "**/?(*.)test.ts?(x)"
     ],
-    "transform": {
-      "^.+\\.mdx$": "@storybook/addon-docs/jest-transform-mdx"
-    },
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx}",
       "!node_modules/**/*",
