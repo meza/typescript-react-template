@@ -5,8 +5,6 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import StylelintWebpackPlugin from 'stylelint-webpack-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
-import WorkboxPlugin from 'workbox-webpack-plugin';
-
 
 const TITLE = 'Issue Council';
 const defaultPort = 8080;
@@ -17,8 +15,8 @@ const config = {
 };
 
 const webpackConfig = (env, args) => {
-  const mode = env.mode==='production' ? 'production':'development';
-  const devMode = mode==='production' ? false:true;
+  const mode = env.mode === 'production' ? 'production' : 'development';
+  const devMode = mode !== 'production';
   const babelConfig = babelConfigGenerator(false, mode);
 
   /**
@@ -28,7 +26,7 @@ const webpackConfig = (env, args) => {
    **/
   const finalWebpackConfig = Object.assign({}, config.config, {
     mode: mode,
-    devtool: mode==='development' ? 'source-map':false,
+    devtool: mode === 'development' ? 'source-map' : false,
     entry: './src/index.tsx',
     target: 'web',
     devServer: {
@@ -52,13 +50,13 @@ const webpackConfig = (env, args) => {
        */
       new HtmlWebpackPlugin({
         title: TITLE,
-        template: path.join(__dirname, 'src', 'templates', 'index.hbs')
+        template: path.join(__dirname, 'src', 'Templates', 'index.hbs')
       }),
       new StylelintWebpackPlugin({
         cache: true,
         cacheLocation: './.cache/',
         fix: true
-      }),
+      })
       // new WorkboxPlugin.InjectManifest({
       //   swSrc: './src/service-worker.js'
       // })
@@ -160,6 +158,5 @@ const webpackConfig = (env, args) => {
 
   return finalWebpackConfig;
 };
-
 
 module.exports = webpackConfig;

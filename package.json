@@ -14,7 +14,7 @@
     "ci": "yarn ci:dev",
     "ci:dev": "yarn lint && yarn test && yarn build",
     "ci:full": "yarn lint && yarn report && yarn build",
-    "clean": "rm -rf dist reports yarn-error.log",
+    "clean": "rm -rf .cache dist reports yarn-error.log",
     "clean:all": "yarn clean && rm -rf node_modules",
     "lint:eslint": "eslint --ext \".tsx,.jsx,.ts,.js,.json\" --cache --cache-location \".cache/\" src",
     "lint:ts": "tsc",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@types/react-redux": "^7.1.20",
-    "connected-react-router": "^6.9.1",
+    "connected-react-router": "^6.2.0-beta.3",
     "core-js": "^3.19.1",
     "history": "^5.1.0",
     "i18next": "^21.5.2",
@@ -35,7 +35,6 @@
     "react-dom": "^17.0.2",
     "react-i18next": "^11.14.2",
     "react-redux": "^7.2.6",
-    "react-router": "^6.0.2",
     "react-router-dom": "^6.0.2",
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
@@ -197,7 +196,9 @@
       "!src/index.tsx",
       "!src/service-worker.js",
       "!src/serviceWorkerRegistration.ts",
-      "!src/App/app.i18n.ts"
+      "!src/App/app.i18n.ts",
+      "!src/StateManagement/Store/configureStore.ts",
+      "!**/*.d.{ts,tsx}"
     ],
     "reporters": [
       "default",

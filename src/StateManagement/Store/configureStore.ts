@@ -1,22 +1,21 @@
 import { applyMiddleware, createStore } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import { composeWithDevTools } from 'redux-devtools-extension';
-import { createBrowserHistory } from 'history';
+
 import createRootReducer from '../Reducers';
 
 import { logger } from 'redux-logger';
-export const history = createBrowserHistory();
-const rootReducer = createRootReducer(history);
-export type RootState = ReturnType<typeof rootReducer>;
+import { composeWithDevTools } from 'redux-devtools-extension';
 
-export default function configureStore(preloadedState: RootState = {}) {
+const rootReducer = createRootReducer();
+
+export default function configureStore() {
   const middlewares = [logger, thunkMiddleware];
   const middlewareEnhancer = applyMiddleware(...middlewares);
 
   const enhancers = [middlewareEnhancer];
   const composedEnhancers = composeWithDevTools(...enhancers);
 
-  const store = createStore(rootReducer, preloadedState, composedEnhancers);
+  const store = createStore(rootReducer, composedEnhancers);
 
   if (process.env.NODE_ENV !== 'production' && module.hot) {
     module.hot.accept('../Reducers', () => store.replaceReducer(rootReducer));
