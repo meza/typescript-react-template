@@ -28,7 +28,7 @@
     "postinstall": "is-ci || husky install",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 8081",
     "build-storybook": "NODE_OPTIONS=--openssl-legacy-provider build-storybook",
-    "chromatic": "npx chromatic --project-token=2ef1b7ed9a07"
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "@types/react-redux": "^7.1.20",
@@ -88,9 +88,14 @@
     "@storybook/addon-essentials": "^6.4.0",
     "@storybook/addon-links": "^6.4.0",
     "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addons": "^6.4.0",
+    "@storybook/api": "^6.4.0",
     "@storybook/builder-webpack5": "^6.4.0",
+    "@storybook/components": "^6.4.0",
+    "@storybook/core-events": "^6.4.0",
     "@storybook/manager-webpack5": "^6.4.0",
     "@storybook/react": "^6.4.0",
+    "@storybook/theming": "^6.4.0",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.9",
