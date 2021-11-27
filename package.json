@@ -14,7 +14,7 @@
     "ci": "yarn ci:dev",
     "ci:dev": "yarn lint && yarn test && yarn build",
     "ci:full": "yarn lint && yarn report && yarn build",
-    "clean": "rm -rf .cache dist reports yarn-error.log",
+    "clean": "rm -rf .cache dist reports yarn-error.log storybook-static build-storybook.log",
     "clean:all": "yarn clean && rm -rf node_modules",
     "lint:eslint": "eslint --ext \".tsx,.jsx,.ts,.js,.json\" --cache --cache-location \".cache/\" src cypress",
     "lint:ts": "tsc",
