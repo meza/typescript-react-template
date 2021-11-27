@@ -19,7 +19,6 @@ import { commandTimings } from 'cypress-timings';
 import './commands';
 import 'cypress-react-selector';
 
-
 commandTimings();
 
 // Alternatively you can use CommonJS syntax:
