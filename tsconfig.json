@@ -1,7 +1,6 @@
 {
   "extends": "@meza/tsconfig-base",
   "compilerOptions": {
-    "target": "ESNext",
     "lib": [
       "dom",
       "dom.iterable",
