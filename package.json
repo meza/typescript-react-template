@@ -22,13 +22,14 @@
     "lint": "yarn lint:eslint && yarn lint:ts",
     "test": "jest",
     "test:e2e": "CYPRESS_CACHE_FOLDER=~/.cache/Cypress cypress run",
+    "test:full": "yarn test && yarn test:e2e",
     "cypress": "CYPRESS_CACHE_FOLDER=~/.cache/Cypress cypress open",
     "report": "jest --coverage && jscpd",
     "release": "standard-version",
     "postinstall": "is-ci || husky install",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 8081",
     "build-storybook": "NODE_OPTIONS=--openssl-legacy-provider build-storybook",
-    "chromatic": "npx chromatic"
+    "chromatic": "chromatic"
   },
   "dependencies": {
     "@types/react-redux": "^7.1.20",
