@@ -5,15 +5,18 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import StylelintWebpackPlugin from 'stylelint-webpack-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+import 'dotenv-defaults/config';
 
-const TITLE = 'Issue Council';
-const defaultPort = 8080;
+const TITLE = process.env.APP_TITLE;
+const defaultPort = process.env.WEB_PORT;
+const outputDirectory = process.env.OUTPUT_DIRECTORY;
+const cacheDirectory = '.cache'; // needs to be changed in the package.json too
+
 const https = false;
 
 const config = {
   config: {}
 };
-
 const webpackConfig = (env, args) => {
   const mode = env.mode === 'production' ? 'production' : 'development';
   const devMode = mode !== 'production';
@@ -54,7 +57,7 @@ const webpackConfig = (env, args) => {
       }),
       new StylelintWebpackPlugin({
         cache: true,
-        cacheLocation: './.cache/',
+        cacheLocation: `./${cacheDirectory}/`,
         fix: true
       })
       // new WorkboxPlugin.InjectManifest({
@@ -127,7 +130,7 @@ const webpackConfig = (env, args) => {
       memoryCacheUnaffected: true,
       type: 'filesystem',
       allowCollectingMemory: true,
-      cacheDirectory: path.resolve(__dirname, '.cache'),
+      cacheDirectory: path.resolve(__dirname, cacheDirectory),
       buildDependencies: {
         config: [__filename]
       }
@@ -150,7 +153,7 @@ const webpackConfig = (env, args) => {
     },
     output: {
       filename: '[name].js',
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, outputDirectory),
       pathinfo: false,
       publicPath: '/'
     }
