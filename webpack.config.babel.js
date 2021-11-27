@@ -82,7 +82,7 @@ const webpackConfig = (env, args) => {
         },
         {
           test: /\.s?css$/,
-          exclude: /node_modules/,
+          //exclude: /node_modules/,
           use: [
             {
               loader: MiniCssExtractPlugin.loader,

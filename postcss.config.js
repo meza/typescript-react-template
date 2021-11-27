@@ -11,7 +11,10 @@ module.exports = cfg => {
       require('postcss-sorting')(),
       require('postcss-preset-env')(),
       require('colorguard')(),
-      require('doiuse')({ browsers: packagejson.browserslist }),
+      require('doiuse')({
+        browsers: packagejson.browserslist,
+        ignoreFiles: ['**/reset.css']
+      }),
       require('autoprefixer')({ grid: true }),
       dev ? null : require('cssnano')() // NEW
     ]
