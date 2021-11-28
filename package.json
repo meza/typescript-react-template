@@ -24,7 +24,7 @@
     "test:e2e": "CYPRESS_CACHE_FOLDER=~/.cache/Cypress cypress run",
     "test:full": "yarn test && yarn test:e2e",
     "cypress": "CYPRESS_CACHE_FOLDER=~/.cache/Cypress cypress open",
-    "report": "jest --coverage && jscpd",
+    "report": "jest --coverage && jscpd src",
     "release": "standard-version",
     "postinstall": "is-ci || husky install",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 8081",
