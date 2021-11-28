@@ -1705,6 +1705,14 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
+"@jscpd/badge-reporter@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@jscpd/badge-reporter/-/badge-reporter-3.4.1.tgz#64f7704d368ee1fb618f821413c07bb53f238e46"
+  integrity sha512-af53N94zBumrwCBuTcO/a7FPz/o3+IK2dCrI3Co6R/JM2z16DuCMXO+rr+Xm0XcaLT+dDhXgLjy8qFn8gA2Xzg==
+  dependencies:
+    badgen "^3.2.2"
+    fs-extra "^9.0.1"
+
 "@jscpd/core@^3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@jscpd/core/-/core-3.4.1.tgz#8a8c6761331833928ad8a8239e264696a299aea5"
@@ -4462,6 +4470,11 @@ babel-walk@3.0.0-canary-5:
   integrity sha512-GAwkz0AihzY5bkwIY5QDR+LvsRQgB/B+1foMPvi0FZPMl5fjD7ICiznUiBdLYMH1QYe6vqu4gWYytZOccLouFw==
   dependencies:
     "@babel/types" "^7.9.6"
+
+badgen@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/badgen/-/badgen-3.2.2.tgz#7556b520055c4952ee46229c57d7a1cc71a85748"
+  integrity sha512-MfBNhOzp+qbTg/3BAeaK1g+VE3uZ0CRfqMyrfyI3JUBz7b+DwxrZbYQdz5JQnibRih9YOVzXuVJl3A3xaWXfFQ==
 
 bail@^1.0.0:
   version "1.0.5"

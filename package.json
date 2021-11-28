@@ -85,6 +85,7 @@
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@cypress/webpack-preprocessor": "^5.10.0",
+    "@jscpd/badge-reporter": "^3.4.1",
     "@meza/tsconfig-base": "^1.1.0",
     "@storybook/addon-a11y": "^6.4.0",
     "@storybook/addon-docs": "^6.4.0",
@@ -182,7 +183,8 @@
     "threshold": 20,
     "reporters": [
       "html",
-      "console"
+      "console",
+      "badge"
     ],
     "ignore": [
       "**/__snapshots__/**"
