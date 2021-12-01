@@ -1929,18 +1929,18 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@storybook/addon-a11y@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-6.4.0.tgz#d2509dc6a87acf588e704306dc4353fc27506480"
-  integrity sha512-J3MWmYHMyFToxhKtHGE4j7pDG2fDFwVyfrB3RgjFeXGjr3oi8jJkLsdvOSMIfveULs67CviHUsVWAGo2kW0q+A==
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-6.4.3.tgz#29b116ccc34f98534b97fc488375374b6034b565"
+  integrity sha512-sb3cPfqHACtivPkcx1UePYAyJ0VMmwS4NWWe8JzfSxV4Fmyj7m6O7vIThuWs5eEm6iakljheubVTsQwQwll85A==
   dependencies:
-    "@storybook/addons" "6.4.0"
-    "@storybook/api" "6.4.0"
-    "@storybook/channels" "6.4.0"
-    "@storybook/client-logger" "6.4.0"
-    "@storybook/components" "6.4.0"
-    "@storybook/core-events" "6.4.0"
+    "@storybook/addons" "6.4.3"
+    "@storybook/api" "6.4.3"
+    "@storybook/channels" "6.4.3"
+    "@storybook/client-logger" "6.4.3"
+    "@storybook/components" "6.4.3"
+    "@storybook/core-events" "6.4.3"
     "@storybook/csf" "0.0.2--canary.87bc651.0"
-    "@storybook/theming" "6.4.0"
+    "@storybook/theming" "6.4.3"
     axe-core "^4.2.0"
     core-js "^3.8.2"
     global "^4.4.0"
@@ -2205,7 +2205,7 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/api@6.4.0", "@storybook/api@^6.4.0":
+"@storybook/api@6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.0.tgz#2b38da7605ff6a2c8f9f44d17c45084740ebf6ea"
   integrity sha512-7/+eHMsQOf0DoQWR7FVYRzLK2JoG+q5RytW9AgpTOJXELONC9/ewKSQdN3X6/WxNc+a9ycxWvTJPPR5m5jMb3A==
@@ -2228,7 +2228,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/api@6.4.3":
+"@storybook/api@6.4.3", "@storybook/api@^6.4.0":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.3.tgz#ae30c75be8559cb6b54195989b50a7e3ccf4cb23"
   integrity sha512-aWD7wPhj+HF2XBmH6b7hgRJPFldDXzhYbtPqsq6ukCrGlJder8NsnL6wHzXlQWgxudw8u3oqM+Q9kLwNiz4yXg==
@@ -2523,7 +2523,7 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/components@6.4.0", "@storybook/components@^6.4.0":
+"@storybook/components@6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.4.0.tgz#36f443bf43e3a5d23fa8a4968f3d0583c4f63688"
   integrity sha512-IgmekBeBVHbYnG7aIEScHShoKIz2X/uY7In8njfO0Exj9Tw6n/yB1UVm34ABTkiKW+ApF/acO0BPXuv/Cuseug==
@@ -2553,7 +2553,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@6.4.3":
+"@storybook/components@6.4.3", "@storybook/components@^6.4.0":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.4.3.tgz#498f22b375a73d1e4cefdbb165d1de2d8d60ba31"
   integrity sha512-U8U5xm6R4ufsoFODimTNywk1zMG4p4AmKNpq9GboF9tSVKcoyfj8DpPlDJbdga5V9XVGcO2b5FoTRCzUiEsfvw==
