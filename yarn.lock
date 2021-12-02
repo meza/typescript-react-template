@@ -2205,7 +2205,7 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/api@6.4.3", "@storybook/api@^6.4.0":
+"@storybook/api@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.3.tgz#ae30c75be8559cb6b54195989b50a7e3ccf4cb23"
   integrity sha512-aWD7wPhj+HF2XBmH6b7hgRJPFldDXzhYbtPqsq6ukCrGlJder8NsnL6wHzXlQWgxudw8u3oqM+Q9kLwNiz4yXg==
@@ -2228,7 +2228,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/api@6.4.4":
+"@storybook/api@6.4.4", "@storybook/api@^6.4.0":
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.4.tgz#8fb3b5f4a16da2ba53391fe90542e8fed74ac0af"
   integrity sha512-nRDlLAyXj56+sV6QrfRFy+gb0k5/81xbldal1nalwLcPs1nBmGt6UHy25tSHaU3c44kRSev3CB8+Vdr3l0j++Q==
@@ -2821,14 +2821,14 @@
     util-deprecate "^1.0.2"
     webpack "4"
 
-"@storybook/core-events@6.4.3", "@storybook/core-events@^6.4.0":
+"@storybook/core-events@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.4.3.tgz#5fb3281a7cacba7fbf0d51a7a782cf751b27f6d7"
   integrity sha512-UnXDO57U0jJYxXT4hVYQ7ze2wnCp3jrkRSyUPmMcyqpuLAWFhj+QYyna/7+geNID80MbVkkNLE+AEeSY+PPglQ==
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/core-events@6.4.4":
+"@storybook/core-events@6.4.4", "@storybook/core-events@^6.4.0":
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.4.4.tgz#37673982e484ee97ce45b4329a29d6dedc25bf3e"
   integrity sha512-qXkbWmGkSydFcmKRn8ox7tLhPvZ8VXlRcoCiyjkTrmAHALvToEjdvKlvHTvUAkRGU2G2J+8VomqDZWxACUQRGg==
