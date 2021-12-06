@@ -2444,9 +2444,9 @@
     webpack-virtual-modules "^0.2.2"
 
 "@storybook/builder-webpack5@^6.4.0":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-6.4.4.tgz#feef53896ec96bb162f5cc142c6abeaf496ba1eb"
-  integrity sha512-83W00CxcblvPZsC7jaGJbUJFsjZ3puOccqFeuRT7nzx6L+AQPCFBjMJdWladCpYPU1SbAHCTERI9RwGBRYEWsw==
+  version "6.4.8"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-6.4.8.tgz#d69d2a3f868ab5384f54009c7cdc79f5ad05a6d4"
+  integrity sha512-u9LdAaTovNI7FZL69o8IPTbh608Og3NLpnhUxuYUxf2sG/95epjVb8tRCWl+UZNkT4BVJyBZHDBqKODrRKZKqg==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
@@ -2468,21 +2468,21 @@
     "@babel/preset-env" "^7.12.11"
     "@babel/preset-react" "^7.12.10"
     "@babel/preset-typescript" "^7.12.7"
-    "@storybook/addons" "6.4.4"
-    "@storybook/api" "6.4.4"
-    "@storybook/channel-postmessage" "6.4.4"
-    "@storybook/channels" "6.4.4"
-    "@storybook/client-api" "6.4.4"
-    "@storybook/client-logger" "6.4.4"
-    "@storybook/components" "6.4.4"
-    "@storybook/core-common" "6.4.4"
-    "@storybook/core-events" "6.4.4"
-    "@storybook/node-logger" "6.4.4"
-    "@storybook/preview-web" "6.4.4"
-    "@storybook/router" "6.4.4"
+    "@storybook/addons" "6.4.8"
+    "@storybook/api" "6.4.8"
+    "@storybook/channel-postmessage" "6.4.8"
+    "@storybook/channels" "6.4.8"
+    "@storybook/client-api" "6.4.8"
+    "@storybook/client-logger" "6.4.8"
+    "@storybook/components" "6.4.8"
+    "@storybook/core-common" "6.4.8"
+    "@storybook/core-events" "6.4.8"
+    "@storybook/node-logger" "6.4.8"
+    "@storybook/preview-web" "6.4.8"
+    "@storybook/router" "6.4.8"
     "@storybook/semver" "^7.3.2"
-    "@storybook/store" "6.4.4"
-    "@storybook/theming" "6.4.4"
+    "@storybook/store" "6.4.8"
+    "@storybook/theming" "6.4.8"
     "@types/node" "^14.0.10"
     babel-loader "^8.0.0"
     babel-plugin-macros "^3.0.1"
@@ -2494,6 +2494,7 @@
     glob "^7.1.6"
     glob-promise "^3.4.0"
     html-webpack-plugin "^5.0.0"
+    path-browserify "^1.0.1"
     react-dev-utils "^11.0.4"
     stable "^0.1.8"
     style-loader "^2.0.0"
@@ -12154,6 +12155,11 @@ path-browserify@0.0.1:
   resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-0.0.1.tgz#e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a"
   integrity sha512-BapA40NHICOS+USX9SN4tyhq+A2RrN/Ws5F0Z5aMHDp98Fl86lX8Oti8B7uN93L4Ifv4fHOEA+pQw87gmMO/lQ==
 
+path-browserify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-1.0.1.tgz#d98454a9c3753d5790860f16f68867b9e46be1fd"
+  integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
+
 path-dirname@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/path-dirname/-/path-dirname-1.0.2.tgz#cc33d24d525e099a5388c0336c6e32b9160609e0"
@@ -16166,10 +16172,10 @@ watchpack@^1.7.4:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
 
-watchpack@^2.2.0, watchpack@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.3.0.tgz#a41bca3da6afaff31e92a433f4c856a0c25ea0c4"
-  integrity sha512-MnN0Q1OsvB/GGHETrFeZPQaOelWh/7O+EiFlj8sM9GPjtQkis7k01aAxrg/18kTfoIVcLL+haEVFlXDaSRwKRw==
+watchpack@^2.2.0, watchpack@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.3.1.tgz#4200d9447b401156eeca7767ee610f8809bc9d25"
+  integrity sha512-x0t0JuydIo8qCNctdDrn1OzH/qDzk2+rdCOC3YzumZ42fiMqmQ7T3xQurykYMhYfHaPHTp4ZxAx2NfUo1K6QaA==
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
@@ -16375,9 +16381,9 @@ webpack@4:
     webpack-sources "^1.4.1"
 
 webpack@^5.64.1, webpack@^5.9.0:
-  version "5.64.4"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.64.4.tgz#e1454b6a13009f57cc2c78e08416cd674622937b"
-  integrity sha512-LWhqfKjCLoYJLKJY8wk2C3h77i8VyHowG3qYNZiIqD6D0ZS40439S/KVuc/PY48jp2yQmy0mhMknq8cys4jFMw==
+  version "5.65.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.65.0.tgz#ed2891d9145ba1f0d318e4ea4f89c3fa18e6f9be"
+  integrity sha512-Q5or2o6EKs7+oKmJo7LaqZaMOlDWQse9Tm5l1WAfU/ujLGN5Pb0SqGeVkN/4bpPmEqEP5RnVhiqsOtWtUVwGRw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
@@ -16401,7 +16407,7 @@ webpack@^5.64.1, webpack@^5.9.0:
     schema-utils "^3.1.0"
     tapable "^2.1.1"
     terser-webpack-plugin "^5.1.3"
-    watchpack "^2.3.0"
+    watchpack "^2.3.1"
     webpack-sources "^3.2.2"
 
 websocket-driver@>=0.5.1, websocket-driver@^0.7.4:
@@ -16586,18 +16592,31 @@ workbox-cacheable-response@6.4.1, workbox-cacheable-response@^6.4.1:
   dependencies:
     workbox-core "6.4.1"
 
-workbox-core@6.4.1, workbox-core@^6.4.1:
+workbox-core@6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.4.1.tgz#41d181d52e86d3263d48b69253bcae66c2d7286a"
   integrity sha512-5hosqpSK+48jHlj+5EHN5dtH1Ade4fqTe4+xX3U9wWK1SDaXEqXpVxdHuBqYfg75UE1PUINA0rhMZWTqeGoLFg==
 
-workbox-expiration@6.4.1, workbox-expiration@^6.4.1:
+workbox-core@6.4.2, workbox-core@^6.4.1:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.4.2.tgz#f99fd36a211cc01dce90aa7d5f2c255e8fe9d6bc"
+  integrity sha512-1U6cdEYPcajRXiboSlpJx6U7TvhIKbxRRerfepAJu2hniKwJ3DHILjpU/zx3yvzSBCWcNJDoFalf7Vgd7ey/rw==
+
+workbox-expiration@6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.4.1.tgz#422e61f9a1ba41fdf27255d1d6d0cbfb2120489b"
   integrity sha512-N912AGhi95vhf2vebE3wPhnGjnR+t5W4yALDY7Pl6bcuhySNbwkkp2RjQcBB+dxrdiX2rOvavvdcf/q1LSnEyg==
   dependencies:
     idb "^6.1.4"
     workbox-core "6.4.1"
+
+workbox-expiration@^6.4.1:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.4.2.tgz#61613459fd6ddd1362730767618d444c6b9c9139"
+  integrity sha512-0hbpBj0tDnW+DZOUmwZqntB/8xrXOgO34i7s00Si/VlFJvvpRKg1leXdHHU8ykoSBd6+F2KDcMP3swoCi5guLw==
+  dependencies:
+    idb "^6.1.4"
+    workbox-core "6.4.2"
 
 workbox-google-analytics@6.4.1:
   version "6.4.1"
@@ -16616,7 +16635,7 @@ workbox-navigation-preload@6.4.1:
   dependencies:
     workbox-core "6.4.1"
 
-workbox-precaching@6.4.1, workbox-precaching@^6.4.1:
+workbox-precaching@6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.4.1.tgz#501022d39633b6ab1a1a322ec406ddfc87528196"
   integrity sha512-Sq8d+/wfcXFjwuVwKe2VxD4QddRBgkO6pJVgpHbk5WFynR8dc8Zj3BlJ38e4nMlRuBZ8996TIgAmk/U6Rr5YHQ==
@@ -16624,6 +16643,15 @@ workbox-precaching@6.4.1, workbox-precaching@^6.4.1:
     workbox-core "6.4.1"
     workbox-routing "6.4.1"
     workbox-strategies "6.4.1"
+
+workbox-precaching@^6.4.1:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.4.2.tgz#8d87c05d54f32ac140f549faebf3b4d42d63621e"
+  integrity sha512-CZ6uwFN/2wb4noHVlALL7UqPFbLfez/9S2GAzGAb0Sk876ul9ukRKPJJ6gtsxfE2HSTwqwuyNVa6xWyeyJ1XSA==
+  dependencies:
+    workbox-core "6.4.2"
+    workbox-routing "6.4.2"
+    workbox-strategies "6.4.2"
 
 workbox-range-requests@6.4.1:
   version "6.4.1"
@@ -16644,19 +16672,33 @@ workbox-recipes@6.4.1:
     workbox-routing "6.4.1"
     workbox-strategies "6.4.1"
 
-workbox-routing@6.4.1, workbox-routing@^6.4.1:
+workbox-routing@6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.4.1.tgz#ac6b4c18bc229b6c349fe1013e09263d7b3bf172"
   integrity sha512-FIy27mwM3WdDASOTMX10OZ8q3Un47ULeDtDrDAKfWYIP/oTF2xoA1/HtXpOjBlyg5VP/poPX5GDojXHXAXpfzQ==
   dependencies:
     workbox-core "6.4.1"
 
-workbox-strategies@6.4.1, workbox-strategies@^6.4.1:
+workbox-routing@6.4.2, workbox-routing@^6.4.1:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.4.2.tgz#65b1c61e8ca79bb9152f93263c26b1f248d09dcc"
+  integrity sha512-0ss/n9PAcHjTy4Ad7l2puuod4WtsnRYu9BrmHcu6Dk4PgWeJo1t5VnGufPxNtcuyPGQ3OdnMdlmhMJ57sSrrSw==
+  dependencies:
+    workbox-core "6.4.2"
+
+workbox-strategies@6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.4.1.tgz#d81273c8db5145ed40803b5f90229d8103c9dd02"
   integrity sha512-2UQ+7Siy4Z5QG2LebbVhDLmPG3M7bVo/tZqN4LNUGXS6fDlpbTTK6A3Hu0W8gCVwIX0tSg7U3mVhDntH4qt3Dg==
   dependencies:
     workbox-core "6.4.1"
+
+workbox-strategies@6.4.2, workbox-strategies@^6.4.1:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.4.2.tgz#50c02bf2d116918e1a8052df5f2c1e4103c62d5d"
+  integrity sha512-YXh9E9dZGEO1EiPC3jPe2CbztO5WT8Ruj8wiYZM56XqEJp5YlGTtqRjghV+JovWOqkWdR+amJpV31KPWQUvn1Q==
+  dependencies:
+    workbox-core "6.4.2"
 
 workbox-streams@6.4.1:
   version "6.4.1"
