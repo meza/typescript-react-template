@@ -3873,10 +3873,10 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@^16.11.10":
-  version "16.11.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.13.tgz#6b71641b81a98c6a538d89892440c06f147edddc"
-  integrity sha512-eUXZzHLHoZqj1frtUetNkUetYoJ6X55UmrVnFD4DMhVeAmwLjniZhtBmsRiemQh4uq4G3vUra/Ws/hs9vEvL3Q==
+"@types/node@*", "@types/node@^17.0.10":
+  version "17.0.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.10.tgz#616f16e9d3a2a3d618136b1be244315d95bd7cab"
+  integrity sha512-S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog==
 
 "@types/node@^14.0.10", "@types/node@^14.14.31":
   version "14.17.34"
@@ -6842,11 +6842,11 @@ cypress-dark@^1.8.3:
     postcss-css-variables "0.17.0"
 
 cypress-react-selector@^2.3.13:
-  version "2.3.13"
-  resolved "https://registry.yarnpkg.com/cypress-react-selector/-/cypress-react-selector-2.3.13.tgz#468f3b42261ed04a7a5f9036d7373cf3894e2672"
-  integrity sha512-30z82/k9Mp5wgpXe/8DyVD2w5cXLmVAiGd/YEKoEto4jmkTWP9WfzSRvBbhd6mrr99HMUudlZUB3TwFgvPp3og==
+  version "2.3.15"
+  resolved "https://registry.yarnpkg.com/cypress-react-selector/-/cypress-react-selector-2.3.15.tgz#637566d942c3a58dcb5d18dd5498474cf6f3b5b0"
+  integrity sha512-jt/s7Y3rhD8dCdBhW3CBdyD1nAP47YgAQiBfNvKYzymkZ/1Mi5RS8/B0+tMFZucnOAjnCmOSFqnLleAZdDDtzg==
   dependencies:
-    resq "1.10.1"
+    resq "1.10.2"
 
 cypress-timings@^1.0.0:
   version "1.0.0"
@@ -14157,10 +14157,10 @@ resolve@^2.0.0-next.3:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
-resq@1.10.1:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/resq/-/resq-1.10.1.tgz#c05d1b3808016cceec4d485ceb375acb49565f53"
-  integrity sha512-zhp1iyUH02MLciv3bIM2bNtTFx/fqRsK4Jk73jcPqp00d/sMTTjOtjdTMAcgjrQKGx5DvQ/HSpeqaMW0atGRJA==
+resq@1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/resq/-/resq-1.10.2.tgz#cedf4f20d53f6e574b1e12afbda446ad9576c193"
+  integrity sha512-HmgVS3j+FLrEDBTDYysPdPVF9/hioDMJ/otOiQDKqk77YfZeeLOj0qi34yObumcud1gBpk+wpBTEg4kMicD++A==
   dependencies:
     fast-deep-equal "^2.0.1"
 
