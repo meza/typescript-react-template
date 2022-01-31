@@ -2286,7 +2286,7 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/api@6.4.15", "@storybook/api@^6.4.0":
+"@storybook/api@6.4.15":
   version "6.4.15"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.15.tgz#781a066ae64424a2f85f08d68a46a628745ff395"
   integrity sha512-oa9gQBauPUgXz/4Blb922M/bqaeV9JD161NI6lAxlWH0C8AVpExXFmKCVtmN3BNi3cRMmsY/o3WYd+/Uy7bfEQ==
@@ -2309,7 +2309,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/api@6.4.17":
+"@storybook/api@6.4.17", "@storybook/api@^6.4.0":
   version "6.4.17"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.4.17.tgz#82c3d756c85a65ecd8a3c3d9ce890e581175003a"
   integrity sha512-O0ssHVy40t4QD5CNdNESbJo7uZd86UWYrHCFjgeC2gmxrMgBD+ajO34N4HoQFC/F+/84om2/z8RYAGKu/WpoTA==
@@ -3015,7 +3015,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/theming@6.4.15", "@storybook/theming@^6.4.0":
+"@storybook/theming@6.4.15":
   version "6.4.15"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.4.15.tgz#330c4d729c1b49c569b728e705ba6b5e9aab8e31"
   integrity sha512-1968vqrvMRo6Ivpu9aWOZ9MdSXKxWB/yI8i3PAN+WaSDnkGf+w2b3Tjgcx9pJiIvO025tuhCg7vhU2snXVYOTg==
@@ -3033,7 +3033,7 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/theming@6.4.17":
+"@storybook/theming@6.4.17", "@storybook/theming@^6.4.0":
   version "6.4.17"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.4.17.tgz#f0a03d2d3239638ac171e97a8f089ee2656a8287"
   integrity sha512-7+U72/VdhoMb00q1URMzdTW3OYHJogro2i2hScgKR+ndL4/dtSmetJ/1z9PuoFxLxHgdLKcwMAV0fZAjEYlhCA==
