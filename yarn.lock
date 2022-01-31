@@ -2679,7 +2679,7 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/components@6.4.15", "@storybook/components@^6.4.0":
+"@storybook/components@6.4.15":
   version "6.4.15"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.4.15.tgz#9ad7596a14429d458e780b74f03bed09ed9a04d7"
   integrity sha512-IlNxLfjde5G9Sf3GK7CEyfKZRpPu03Q75mwmN4yw2D4znsxAcVKCYxqrDYwxI5lfOKvkeeVkfg2mPpDBwuAL4A==
@@ -2709,7 +2709,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@6.4.17":
+"@storybook/components@6.4.17", "@storybook/components@^6.4.0":
   version "6.4.17"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.4.17.tgz#5be383682d9538c35c96463723cb17740f105fb6"
   integrity sha512-R6imELCWlHWQiprYMeeXLKgUQK4m698G/jvkc1xUxAThpTxwgROTcpw5qnJA0k+wltjGn4t6MBWKHhheGZc6Hg==
@@ -3172,19 +3172,19 @@
     webpack-virtual-modules "^0.2.2"
 
 "@storybook/manager-webpack5@^6.4.0":
-  version "6.4.15"
-  resolved "https://registry.yarnpkg.com/@storybook/manager-webpack5/-/manager-webpack5-6.4.15.tgz#e05347143135a055442396761aa382a4dcbd2f87"
-  integrity sha512-NWDnoCaDOlsoq/xw21YvvDJrIXuZnW/Ou/OLUkMcePcflEE81nQYSo2oS2cbmN4g6ghWQoYM4CS62BOoJEAHrw==
+  version "6.4.17"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-webpack5/-/manager-webpack5-6.4.17.tgz#651c87485d0612f3d04de17d684b36b057f428ce"
+  integrity sha512-UEQGrhvyc2DOUUqQG4Vr59LDVy86O1NsEN+Q2E2UunTh6qNYLsvhHrb0V/MgD2B+nybH161YJDDZytd+l5TYpg==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-transform-template-literals" "^7.12.1"
     "@babel/preset-react" "^7.12.10"
-    "@storybook/addons" "6.4.15"
-    "@storybook/core-client" "6.4.15"
-    "@storybook/core-common" "6.4.15"
-    "@storybook/node-logger" "6.4.15"
-    "@storybook/theming" "6.4.15"
-    "@storybook/ui" "6.4.15"
+    "@storybook/addons" "6.4.17"
+    "@storybook/core-client" "6.4.17"
+    "@storybook/core-common" "6.4.17"
+    "@storybook/node-logger" "6.4.17"
+    "@storybook/theming" "6.4.17"
+    "@storybook/ui" "6.4.17"
     "@types/node" "^14.0.10"
     babel-loader "^8.0.0"
     case-sensitive-paths-webpack-plugin "^2.3.0"
