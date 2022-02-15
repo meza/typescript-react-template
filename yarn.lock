@@ -6720,9 +6720,9 @@ cypress-dark@^1.8.3:
     postcss-css-variables "0.17.0"
 
 cypress-react-selector@^2.3.13:
-  version "2.3.15"
-  resolved "https://registry.yarnpkg.com/cypress-react-selector/-/cypress-react-selector-2.3.15.tgz#637566d942c3a58dcb5d18dd5498474cf6f3b5b0"
-  integrity sha512-jt/s7Y3rhD8dCdBhW3CBdyD1nAP47YgAQiBfNvKYzymkZ/1Mi5RS8/B0+tMFZucnOAjnCmOSFqnLleAZdDDtzg==
+  version "2.3.16"
+  resolved "https://registry.yarnpkg.com/cypress-react-selector/-/cypress-react-selector-2.3.16.tgz#0a3af6327dcb1f59d57533dda142a1739a5de6ef"
+  integrity sha512-Ecj7iic5QJZU8mPKV9e9rgRi/TDvjykdfJB3V42ptqw+9G/Ef4iLTneCqyK287N7t7kLbo1mhXXcbj4J39KJlQ==
   dependencies:
     resq "1.10.2"
 
