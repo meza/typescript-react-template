@@ -16024,12 +16024,19 @@ workbox-build@6.5.0:
     workbox-sw "6.5.0"
     workbox-window "6.5.0"
 
-workbox-cacheable-response@6.5.0, workbox-cacheable-response@^6.4.1:
+workbox-cacheable-response@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-6.5.0.tgz#cf91b2d4f4707295539596a480ab1c908f6cbfdd"
   integrity sha512-sqAtWAiBwWvI8HG/2Do7BeKPhHuUczt22ORkAjkH9DfTq9LuWRFd6T4HAMqX5G8F1gM9XA2UPlxRrEeSpFIz/A==
   dependencies:
     workbox-core "6.5.0"
+
+workbox-cacheable-response@^6.4.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-6.5.1.tgz#f71d0a75b3d6846e39594955e99ac42fd26f8693"
+  integrity sha512-3TdtH/luDiytmM+Cn72HCBLZXmbeRNJqZx2yaVOfUZhj0IVwZqQXhNarlGE9/k6U5Jelb+TtpH2mLVhnzfiSMg==
+  dependencies:
+    workbox-core "6.5.1"
 
 workbox-core@6.5.0:
   version "6.5.0"
@@ -16041,13 +16048,21 @@ workbox-core@6.5.1, workbox-core@^6.4.1:
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.1.tgz#0dba3bccf883a46dfa61cc412eaa3cb09bb549e6"
   integrity sha512-qObXZ39aFJ2N8X7IUbGrJHKWguliCuU1jOXM/I4MTT84u9BiKD2rHMkIzgeRP1Ixu9+cXU4/XHJq3Cy0Qqc5hw==
 
-workbox-expiration@6.5.0, workbox-expiration@^6.4.1:
+workbox-expiration@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.5.0.tgz#3cf6a0c8b08b59efa235d26d443c8b7f173179cd"
   integrity sha512-y3WRkKRy/gMuZZNkrLFahjY0QZtLoq+QfhTbVAsOGHVg1CCtnNbeFAnEidQs7UisI2BK76VqQPvM7hEOFyZ92A==
   dependencies:
     idb "^6.1.4"
     workbox-core "6.5.0"
+
+workbox-expiration@^6.4.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.5.1.tgz#9f105fcf3362852754884ad153888070ce98b692"
+  integrity sha512-iY/cTADAQATMmPkUBRmQdacqq0TJd2wMHimBQz+tRnPGHSMH+/BoLPABPnu7O7rT/g/s59CUYYRGxe3mEgoJCA==
+  dependencies:
+    idb "^6.1.4"
+    workbox-core "6.5.1"
 
 workbox-google-analytics@6.5.0:
   version "6.5.0"
@@ -16155,13 +16170,21 @@ workbox-webpack-plugin@^6.4.1:
     webpack-sources "^1.4.3"
     workbox-build "6.5.0"
 
-workbox-window@6.5.0, workbox-window@^6.4.1:
+workbox-window@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/workbox-window/-/workbox-window-6.5.0.tgz#7cc3bf4d5c7e7e0b4da579bee9e8df8bd9ba2718"
   integrity sha512-DOrhiTnWup/CsNstO2uvfdKM4kdStgHd31xGGvBcoCE3Are3DRcy5s3zz3PedcAR1AKskQj3BXz0UhzQiOq8nA==
   dependencies:
     "@types/trusted-types" "^2.0.2"
     workbox-core "6.5.0"
+
+workbox-window@^6.4.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-window/-/workbox-window-6.5.1.tgz#7b5ca29467b1da45dc9e2b5a1b89159d3eb9957a"
+  integrity sha512-oRlun9u7b7YEjo2fIDBqJkU2hXtrEljXcOytRhfeQRbqXxjUOpFgXSGRSAkmDx1MlKUNOSbr+zfi8h5n7In3yA==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
+    workbox-core "6.5.1"
 
 worker-farm@^1.7.0:
   version "1.7.0"
