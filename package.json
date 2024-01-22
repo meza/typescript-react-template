@@ -83,7 +83,7 @@
     "@babel/preset-typescript": "^7.16.0",
     "@babel/register": "^7.16.0",
     "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/config-conventional": "^18.5.0",
     "@cypress/webpack-preprocessor": "^5.10.0",
     "@jscpd/badge-reporter": "^3.4.1",
     "@meza/tsconfig-base": "^1.1.0",
