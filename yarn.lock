@@ -8453,10 +8453,10 @@ eslint-plugin-cypress@^2.12.1:
   dependencies:
     globals "^11.12.0"
 
-eslint-plugin-jest@^26.2.2:
-  version "26.2.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-26.2.2.tgz#74e000544259f1ef0462a609a3fc9e5da3768f6c"
-  integrity sha512-etSFZ8VIFX470aA6kTqDPhIq7YWe0tjBcboFNV3WeiC18PJ/AVonGhuTwlmuz2fBkH8FJHA7JQ4k7GsQIj1Gew==
+eslint-plugin-jest@^27.8.0:
+  version "27.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.8.0.tgz#c8900c3e74e4c6b8cee67ea77dbc8de9cbd9e093"
+  integrity sha512-347hVFiu4ZKMYl5xFp0X81gLNwBdno0dl0CMpUMjwuAux9X/M2a7z+ab2VHmPL6XCT87q8nv1vaVzhIO4TE/hw==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
